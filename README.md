@@ -425,9 +425,9 @@ Contains comprehensive information:
 ## 👨‍💼 Author
 
 **[Your Name]**  
-📧 Email: [your.email@example.com]  
-🔗 LinkedIn: [Your LinkedIn Profile]  
-🐙 GitHub: [@yourusername](https://github.com/yourusername)
+📧 Email: [wphiri@beda.ie]  
+🔗 LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/william-phiri-866b8443/)]  
+🐙 GitHub: [@yourusername](https://github.com/kochezz)
 
 ---
 
@@ -440,11 +440,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Dataset provided for academic assignment
-- Built as part of [Course Name] coursework
+- Built as part of Level 9 NFQ Data Science coursework
 - Thanks to instructors and peers for feedback
 
 ---
 
 **⭐ If you found this project helpful, please consider giving it a star!**
-
-Brief description of the project and its purpose.
