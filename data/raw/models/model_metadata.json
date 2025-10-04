@@ -1,0 +1,86 @@
+{
+    "project": "Email Marketing Campaign Success Prediction",
+    "date_trained": "2025-10-04 12:50:43",
+    "dataset": {
+        "total_samples": 683,
+        "training_samples": 546,
+        "test_samples": 137,
+        "response_rate": 0.2635431918008785,
+        "train_response_rate": 0.26373626373626374,
+        "test_response_rate": 0.26277372262773724
+    },
+    "models": {
+        "logistic_regression_significant": {
+            "features": [
+                "Recency_Service",
+                "Recency_Product",
+                "Bill_Service",
+                "Bill_Product"
+            ],
+            "n_features": 4,
+            "auc": 0.8074807480748075,
+            "accuracy": 0.7591240875912408,
+            "precision": 0.5882352941176471,
+            "recall": 0.2777777777777778,
+            "f1_score": 0.37735849056603776,
+            "file": "models/logistic_regression_significant.pkl"
+        },
+        "naive_bayes": {
+            "features": [
+                "Gender",
+                "AGE_Encoded",
+                "Recency_Service",
+                "Recency_Product",
+                "Bill_Service",
+                "Bill_Product"
+            ],
+            "n_features": 6,
+            "auc": 0.7665016501650166,
+            "accuracy": 0.7518248175182481,
+            "precision": 0.5555555555555556,
+            "recall": 0.2777777777777778,
+            "f1_score": 0.37037037037037035,
+            "file": "models/naive_bayes_model.pkl"
+        },
+        "logistic_regression_combined": {
+            "features": [
+                "Gender",
+                "AGE_Encoded",
+                "Total_Recency",
+                "Total_Bill",
+                "Recency_Ratio",
+                "Bill_Ratio"
+            ],
+            "n_features": 6,
+            "auc": 0.7898789878987899,
+            "accuracy": 0.7737226277372263,
+            "precision": 0.6470588235294118,
+            "recall": 0.3055555555555556,
+            "f1_score": 0.41509433962264153,
+            "file": "models/logistic_regression_combined.pkl"
+        },
+        "svm": {
+            "features": [
+                "Gender",
+                "AGE_Encoded",
+                "Total_Recency",
+                "Total_Bill",
+                "Recency_Ratio",
+                "Bill_Ratio"
+            ],
+            "n_features": 6,
+            "auc": 0.737073707370737,
+            "accuracy": 0.7737226277372263,
+            "precision": 0.6666666666666666,
+            "recall": 0.2777777777777778,
+            "f1_score": 0.39215686274509803,
+            "file": "models/svm_model.pkl"
+        }
+    },
+    "best_model": {
+        "name": "Logistic Regression (Significant)",
+        "auc": 0.8074807480748075,
+        "accuracy": 0.7591240875912408,
+        "file": "models/logistic_regression_significant.pkl"
+    }
+}
