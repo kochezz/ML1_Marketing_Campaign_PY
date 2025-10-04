@@ -426,8 +426,8 @@ Contains comprehensive information:
 
 **[Your Name]**  
 📧 Email: [wphiri@beda.ie]  
-🔗 LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/william-phiri-866b8443/)]  
-🐙 GitHub: [@yourusername](https://github.com/kochezz)
+🔗 LinkedIn: [[LinkedIn Profile](https://www.linkedin.com/in/william-phiri-866b8443/)]  
+🐙 GitHub: [Kochezz](https://github.com/kochezz)
 
 ---
 
